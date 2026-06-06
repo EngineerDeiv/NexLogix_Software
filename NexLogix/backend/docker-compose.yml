@@ -43,7 +43,7 @@ services:
     build: .
     image: nexlogix-backend:v1.2
     container_name: nexlogix-php-back
-    restart: always
+    restart: no
     env_file:
       - .env                                      
     ports:
